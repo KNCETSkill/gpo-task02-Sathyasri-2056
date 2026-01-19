@@ -1,1 +1,17 @@
-
+import java.util.*;
+public class demo{
+  public static vaild main(String[]args){
+    Scanner sc= new Scanner(System.in);
+    int Attendance= sc.nextInt();
+    if(Attendance > 85){
+      System.out.println("Excellent");
+    }
+    else if( Attendance >60 && Attendance<=85){
+      System.out.println("Satisfactory");
+    }
+    else if(Attendance <60){
+      System.out.println("Poor");
+    }
+  }
+}
+      
